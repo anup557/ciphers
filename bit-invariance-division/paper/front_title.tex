@@ -1,0 +1,44 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contents: The title page
+% $Id: title.tex,v 1.2 2003/03/19 20:57:47 oetiker Exp $
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \ifx\pdfoutput\undefined % We're not running pdftex
+% \else
+% \pdfbookmark{Title Page}{title}
+% \fi
+\newlength{\centeroffset}
+\setlength{\centeroffset}{-0.5\oddsidemargin}
+\addtolength{\centeroffset}{0.5\evensidemargin}
+
+%\addtolength{\textwidth}{-\centeroffset}
+\thispagestyle{empty}
+\vspace*{\stretch{1}}
+\noindent\hspace*{\centeroffset}\makebox[0pt][l]{
+\begin{minipage}{\textwidth}
+	\flushright
+	{\centering \huge \sf 
+		\begin{spacing}{.8}
+			\emph{Automatic tools for Integral Cryptanalysis}
+		\end{spacing}
+	}
+	\noindent\rule[-1ex]{\textwidth}{5pt}\\[2.5ex]
+	% \hfill\emph{\Large Or \LaTeXe{} in \pageref{verylast} minutes}
+\end{minipage}}
+
+\vspace*{13cm}
+% \noindent\rule[-1ex]{\textwidth}{1pt}\\[2.5ex]
+\noindent\hspace*{\centeroffset}\makebox[0pt][l]{\begin{minipage}{\textwidth}
+\flushright
+{\sf
+{\huge \emph{}}\\[3ex]} 
+%{\sf \emph{February 2006}}
+\end{minipage}}
+
+%\addtolength{\textwidth}{\centeroffset}
+\vspace{\stretch{2}}
+
+
+\pagebreak
+
+\endinput

@@ -1,0 +1,33 @@
+
+\section{Preliminaries and Background}	\label{sec:prelim_and_backgrnd}
+
+\subsection{Notations}	\label{subsec:notation}
+For any $a \in \mathbb{F}_2^n$, the Hamming weight of is $wt(a) = \sum\limits_{i=1}^{i=n}a_i$. For any vector $\boldsymbol{a} = (a_0,a_1,\cdots,a_{m-1}) \in  \mathbb{F}_2^{l_0} \times \mathbb{F}_2^{l_1} \times \cdots \times \mathbb{F}_2^{l_{m-1}}$, the vectorial Hamming weight of $\textbf{a}$ is $W(\boldsymbol{a}) = (wt(a_0),wt(a_1),\cdots,wt(a_{m-1})) \in \mathbb{Z}^m$. For any $\boldsymbol{k} \in \mathbb{Z}^m$ and $ \boldsymbol{k^{\prime}} \in \mathbb{Z}^m$, we define $\boldsymbol{k} \succeq \boldsymbol{k^{\prime}}$ if $k_i \geq k_i^{\prime}$ for all $i$. For any integer $k \in  \{0,1,..,n \}$ we define the set $\mathbb{S}_k^n = \{a\in \mathbb{F}_2^n:k \leq wt(a) \}$ and for any vector $\boldsymbol{k} \in  (\{0,1,..,n \})^m$ we define the set
+$\mathbb{S}_{\boldsymbol{k}}^{m,n} = \{\boldsymbol{a} = (a_1,a_2,...,a_m)\in (\mathbb{F}_2^n)^m:\boldsymbol{k} \preceq W({\boldsymbol{a}})\}.$ For any vector $u \in  \mathbb{F}_2^n$ and $x \in  \mathbb{F}_2^n$, we define the \textit{bit product} $\pi_u:\mathbb{F}_2^n \to \mathbb{F}_2$ as
+$\pi_u(x) = \prod_{i=1}^{n}{x_i}^{u_i}$ and for any vector $\boldsymbol{u} \in  (\mathbb{F}_2^n)^m$ and $\boldsymbol{x} \in  (\mathbb{F}_2^n)^m$, we define the \textit{vectorial bit product} $\pi_{\boldsymbol{u}}:(\mathbb{F}_2^n)^m \to \mathbb{F}_2^n$ as
+$\pi_{\boldsymbol{u}}(\boldsymbol{x}) = \prod_{i=1}^{m}\pi_{u_i}(x_i)=\prod_{i=1}^{m}\Big(\prod_{j=1}^{n}x_{i_j}^{u_{i_j}}\Big).$
+The Algebraic Normal Form (ANF) of a function $f:\mathbb{F}_2^n \to \mathbb{F}_2$ can be defined as
+$f(x)=\bigoplus_{u\in \mathbb{F}_2^n} a_{u}^f \pi_u(x)$
+and the degree of a function $f:\mathbb{F}_2^n \to \mathbb{F}_2$ is $d$ if $d$ is the degree of the largest monomial in the ANF of $f$, i.e.,
+$ d = \max_{u \in \mathbb{F}_2^n, a_{u}^f \neq 0} wt(u).$
+
+We use bold lowercase letters to represent vectors in a binary field. For any $n$-bit
+vector $\mathbf{s} \in \mathbb{F}_2^n$, its $i$-th coordinate is denoted by $s_i$,
+thus we have $\mathbf{s} = (s_{n-1},...,s_0)$.
+
+
+
+\subsection{Division Property}
+
+\subsection{Higher Order Differential}
+
+
+
+
+\subsection{Propagation of Division Property} \label{subsec:prop_of_div_prop}
+
+\subsection{\present[] \cite{DBLP:conf/ches/BogdanovKLPPRSV07}}	\label{subsec:present_cipher}
+
+\subsection{\gift[] \cite{DBLP:conf/ches/BanikPPSST17}}	\label{subsec:gift_cipher}
+
+

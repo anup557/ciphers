@@ -1,0 +1,39 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{BKL{\etalchar{+}}07}
+
+\bibitem[BKL{\etalchar{+}}07]{DBLP:conf/ches/BogdanovKLPPRSV07}
+Andrey Bogdanov, Lars~R. Knudsen, Gregor Leander, Christof Paar, Axel
+  Poschmann, Matthew J.~B. Robshaw, Yannick Seurin, and C.~Vikkelsoe.
+\newblock {PRESENT:} an ultra-lightweight block cipher.
+\newblock In {\em {CHES}}, volume 4727 of {\em Lecture Notes in Computer
+  Science}, pages 450--466. Springer, 2007.
+
+\bibitem[BPP{\etalchar{+}}17]{DBLP:conf/ches/BanikPPSST17}
+Subhadeep Banik, Sumit~Kumar Pandey, Thomas Peyrin, Yu~Sasaki, Siang~Meng Sim,
+  and Yosuke Todo.
+\newblock {GIFT:} {A} small present - towards reaching the limit of lightweight
+  encryption.
+\newblock In {\em {CHES}}, volume 10529 of {\em Lecture Notes in Computer
+  Science}, pages 321--345. Springer, 2017.
+
+\bibitem[Lea10]{DBLP:journals/iacr/Leander10}
+Gregor Leander.
+\newblock Small scale variants of the block cipher {PRESENT}.
+\newblock {\em {IACR} Cryptol. ePrint Arch.}, page 143, 2010.
+
+\bibitem[Tod17]{DBLP:journals/joc/Todo17}
+Yosuke Todo.
+\newblock Integral cryptanalysis on full {MISTY1}.
+\newblock {\em J. Cryptol.}, 30(3):920--959, 2017.
+
+\bibitem[XZBL16]{DBLP:conf/asiacrypt/XiangZBL16}
+Zejun Xiang, Wentao Zhang, Zhenzhen Bao, and Dongdai Lin.
+\newblock Applying {MILP} method to searching integral distinguishers based on
+  division property for 6 lightweight block ciphers.
+\newblock In Jung~Hee Cheon and Tsuyoshi Takagi, editors, {\em Advances in
+  Cryptology - {ASIACRYPT} 2016 - 22nd International Conference on the Theory
+  and Application of Cryptology and Information Security, Hanoi, Vietnam,
+  December 4-8, 2016, Proceedings, Part {I}}, volume 10031 of {\em Lecture
+  Notes in Computer Science}, pages 648--678, 2016.
+
+\end{thebibliography}
