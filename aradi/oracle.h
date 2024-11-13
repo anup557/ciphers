@@ -2,7 +2,7 @@
 /* char *print_details = "false"; */
 char *print_details = "true";
 
-/* circulat shifts within 16 and 32 bit */
+/* circular shifts within 16 and 32 bit */
 #define S16(i,X) ((((uint16_t)X<<i)&0xffff)|((uint16_t)X>>(16-i)))
 #define S32(i,X) (((uint32_t)X<<i)|((uint32_t)X>>(32-i)))
 
