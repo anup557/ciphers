@@ -16,4 +16,4 @@ The folder structure is as follows:
 
 Each cipher folder contains:
 - The main code file(s) for that cipher.
-- A README.md containing the original paper details, the test vectors of the corresponding cipher and usage of the given code.
+- A README.md containing the original paper details, the test vectors of the corresponding cipher and usage details of the given code.
