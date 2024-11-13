@@ -6,7 +6,7 @@ ARADI and LLAMA: Low-Latency Cryptography for Memory Encryption.
 IACR Cryptol. ePrint Arch. 2024: 1240 (2024).
 
 ## Aradi Test Vector
-The following text vector is given in Figure 3.4 in [1].
+The following text vector is given in Figure 3.4 of [1].
 
 - **Message:** 00000000 00000000 00000000 00000000
 - **Key:** 03020100 07060504 0b0a0908 0f0e0d0c 13121110 17161514 1b1a1918 1f1e1d1c
