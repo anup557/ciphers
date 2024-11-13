@@ -5,7 +5,7 @@ This folder contains implementations of aradi cipher in C language.
 ARADI and LLAMA: Low-Latency Cryptography for Memory Encryption.
 IACR Cryptol. ePrint Arch. 2024: 1240 (2024).
 
-## Test Vector
+## Aradi Test Vector
 The following text vector is given in Figure 3.4 in [1].
 
 - **Message:** 00000000 00000000 00000000 00000000
