@@ -12,16 +12,24 @@ The folder structure is as follows:
 │       ├── oracle.h
 │       ├── my_lib.h
 │       └── README.md
+│
 ├── aradi
 │   ├── main.c
 │   ├── oracle.h
 │   ├── my_lib.h
 │   └── README.md
+│
 ├── baksheesh
 │   ├── main.c
 │   ├── oracle.h
 │   ├── my_lib.h
 │   └── README.md
+│
+├── craft
+│   ├── main.c
+│   ├── oracle.h
+│   └── README.md
+│
 └── README.md
 ````
 
