@@ -64,4 +64,4 @@ state into the variable `s[32]` according to our implementation.
 
 ## Advantage of Lane wise Implementation
 - In our implementation, each SBox, LR, Mixslice needs only 16 iterations (actually 32, as each lane stored into two 64 bit
-  variable). While in slice wise fashion, they need 320, 1280 and 80 iterations respectively. 
+  variable). While in slice wise fashion, they need 320, 1280 and 80 iterations for the operations respectively. 
