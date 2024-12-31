@@ -61,6 +61,9 @@ Suppose $s_{1d}[80] = {slice_{79}, \cdots, slice_1, slice_0}$ stores one dimensi
 the twinkle state in slice wise fashion. The function `void _1d_to_lane_wise(uint64_t *s, uint16_t *s_1d)` stores the
 state as the given figure in lane wise way into the variable `s[32]`.
 
+- **Note:** The difference between slice representation of ours with authors is that, for our case,
+  one has to keep $slice_{79}$ in the 0-th position of $s_{1d}[]$.
+
 ## Advantage of Lane wise Implementation
-- In our implementation each SBox, LR, Mixslice needs only 16 iterations (actually 32, as each lane stored into two 64 bit
+- In our implementation, each SBox, LR, Mixslice needs only 16 iterations (actually 32, as each lane stored into two 64 bit
   variable). While in slice wise fashion, they need 320, 1280 and 80 iterations respectively. 
