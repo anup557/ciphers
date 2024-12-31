@@ -33,8 +33,19 @@ Similarly, for the $i$-th lane with $0 \leq i \leq 15$,
 $$s[2i]\parallel s[2i +1] = s_{\(16\times 79\) +i} \cdots s_{\(16\times 64\) +i} (\text{16 bit}) \parallel s_{\(16\times 63\) +i} \cdots s_{\(16\times 0\) +i} (\text{64 bit})$$
 
 ## Usage
-To run the code:
+To run the code, run the following command in linux terminal or run the main.c file.
+
 ```
 gcc main.c -o out
 ./out
+```
+
+## Make a Twinkle State (Lane wise)
+The following code insert the 80 bit number `0x11112222333344445555` into each lane of the state.
+
+```
+uint64_t *s = (uint64_t*)malloc(32*sizeof(uint64_t));                                           
+for (int i=0; i<16; i++){                                                                       
+    s[2*i] = 0x1111; s[2*i +1] = 0x2222333344445555;                                            
+}                                                                                               
 ```
