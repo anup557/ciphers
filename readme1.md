@@ -27,3 +27,9 @@ $$
     &= s_{16\times 79} \cdots s_{16\times 64} (\text{16 bit}) \parallel s_{16\times 63} \cdots s_{16\times 0} (\text{64 bit})
 \end{align*}
 $$
+
+Similarly, for the $i$-th lane, with $0 \leq i \leq 15$, 
+$$
+    s[2i]\parallel s[2i +1] = s_{\(16\times 79\) +i} \cdots s_{\(16\times 64\) +i} (\text{16 bit}) \parallel s_{\(16\times 63\) +i} \cdots s_{\(16\times 0\) +i} (\text{64 bit})
+$$
+
