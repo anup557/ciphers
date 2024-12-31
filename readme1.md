@@ -24,6 +24,7 @@ state into the variables is different. We use two 64 bit variable to store each 
 $$
 \begin{align*}
     0\text{-th lane} &= s[0]\parallel s[1] \\
-    &= s_{16\times 79} \cdots s_{16\times 64} \parallel s_{16\times 63} \cdots s_{16\times 0}
+    &= \underline{s_{16\times 79} \cdots s_{16\times 64}} \parallel s_{16\times 63} \cdots s_{16\times 0}\\
+    & 16-bit \parallel 64-bit
 \end{align*}
 $$
