@@ -26,12 +26,14 @@ state into the variables is different. We use two 64 bit variable to store each 
 $$
 \begin{align*}
     0\text{-th lane} &= s[0]\parallel s[1] \\
-    &= s_{16\times 79} \cdots s_{16\times 64} (\text{16 bit}) \parallel s_{16\times 63} \cdots s_{16\times 0} (\text{64 bit})
+    &= s_{1264} \cdots s_{1024} (\text{16 bit}) \parallel s_{1008} \cdots s_{0} (\text{64 bit})
 \end{align*}
 $$
 
 <div style="text-align: center;">
-    <img src="state-Page-2.drawio.png" alt="twinkle state" width="500">
+    <center>
+        <img src="state-Page-2.drawio.png" alt="twinkle state" width="500">
+    </center>
 </div>
 
 Similarly, for the $i$-th lane with $0 \leq i \leq 15$, 
