@@ -49,3 +49,12 @@ for (int i=0; i<16; i++){
     s[2*i] = 0x1111; s[2*i +1] = 0x2222333344445555;                                            
 }                                                                                               
 ```
+
+## Slice wise to Lane wise
+Suppose $s[80] = {slice_{79}, \cdots, slice_1, slice_0}$ stores one dimensional representation of
+the twinkle state. The function `void _1d_to_lane_wise(uint64_t *rc, uint16_t *rc_1d)` stores the
+state as the given figure in lane wise way.
+
+## Advantage of Lane wise Implementation
+- Each SBox, LR, Mixslice needs only 16 iterations (actually 32, as each lane stored into two 64 bit
+  variable). While in slice wise fashion, they need 320, 1280 and 80 iterations respectively. 
