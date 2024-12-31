@@ -1,6 +1,6 @@
 
 ## State Representation
-Suppose $s_{1279} s_{1278} \cdots s_0$ is one dimensional representation of the state.
+Suppose $s_{1279} s_{1278} \cdots s_0$ is one dimensional representation of the state, where each $s_i, for 0 \leq i \leq 79$ is one bit.
 
 ![twinkle state](state.pdf)
 
