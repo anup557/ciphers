@@ -19,7 +19,7 @@ $$slice_{79} = s_{1279} \cdots s_{1264}$$
 ## Ours Representation of the State (Lane wise)
 Our representation of a twinkle state is similar with the authors, though storing process of the
 state into the variables is different. We use two 64 bit variable to store each lane. Hence
-`uint64_t s[32]` is needed to store a full state into the variable `s`.
+`uint64_t s[32]` is needed to store a full state into the variable `s`. In our representation,
 
 $$
 \begin{align*}
@@ -29,9 +29,7 @@ $$
 $$
 
 <div style="text-align: center;">
-    <center>
-        <img src="state-Page-2.drawio.png" alt="twinkle state" width="500">
-    </center>
+    <img src="state-Page-2.drawio.png" alt="twinkle state" width="500">
 </div>
 
 Similarly, for the $i$-th lane with $0 \leq i \leq 15$, 
