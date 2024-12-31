@@ -10,11 +10,11 @@ with
 
 $$slice_0 = s_{15} \cdots s_{0}$$
 
-$slice_1 = s_{31} \cdots s_{16}$
+$$slice_1 = s_{31} \cdots s_{16}$$
 
-$\vdots$
+$$\vdots$$
 
-$slice_{79} = s_{1279} \cdots s_{1264}$
+$$slice_{79} = s_{1279} \cdots s_{1264}$$
 
 ## Ours Representation of the State (Lane wise)
 Our representation of a twinkle state is similar with the authors, though storing process of the
