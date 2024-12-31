@@ -5,7 +5,7 @@ Suppose $s_{1279} s_{1278} \cdots s_0$ is one dimensional representation of the 
 ![twinkle state](state.pdf)
 
 ## Author's Representation of the State (Slice wise)
-The author's stored the state in $s[80]$ where $s[80]$ = {$slice_0, slice_1, \cdots, slice_{79}$},
+The author's stored the state in $s[80]$ where $s[80] = {{slice_0, slice_1, \cdots, slice_{79}}$,
 with
 
 $slice_0 = s_{15} \cdots s_{0}$
