@@ -60,7 +60,7 @@ the twinkle state in slice wise fashion. The function `void _1d_to_lane_wise(uin
 state into the variable `s[32]` according to our implementation.
 
 - **Note:** The difference between slice representation of ours with authors is that, for our case,
-  one has to keep $slice_{79}$ in the 0-th position of $s_{1d}[]$.
+  one has to keep $slice_{79}$ in the 0-th position of $s_{1d}[~]$.
 
 ## Advantage of Lane wise Implementation
 - In our implementation, each SBox, LR, Mixslice needs only 16 iterations (actually 32, as each lane stored into two 64 bit
