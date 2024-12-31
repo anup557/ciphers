@@ -21,4 +21,4 @@ Our representation of a twinkle state is similar with the authors, though storin
 state into the variables are different. We use two 64 bit variable to store each lane. Hence
 `uint64_t s[32]` is needed to store a full state into the variable `s`.
 
-$0-th lane = s[0]||s[1] = s_{16\times 79} \cdots s_{16\times 64} ||  s_{16\times 63} \cdots s_{16\times 0}$ 
+$0\text{-th lane} = s[0]\|\|s[1] = s_{16\times 79} \cdots s_{16\times 64} ||  s_{16\times 63} \cdots s_{16\times 0}$ 
