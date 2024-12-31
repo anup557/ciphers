@@ -28,7 +28,7 @@ $$
 \end{align*}
 $$
 
-![twinkle state](state-Page-2.drawio.pdf)
+![twinkle state](state-Page-2.drawio.png)
 
 Similarly, for the $i$-th lane with $0 \leq i \leq 15$, 
 
