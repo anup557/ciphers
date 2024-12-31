@@ -2,7 +2,7 @@
 ## State Representation
 Suppose $s_{1279} s_{1278} \cdots s_0$ is one dimensional representation of the state, where each $s_i$, for $0 \leq i \leq 1279$ is one bit.
 
-![twinkle state](state.pdf)
+![twinkle state](state-Page-1.drawio.pdf)
 
 ## Author's Representation of the State (Slice wise)
 Author's stored the state in `uint32_t s[80]` where $s[80] = {slice_0, slice_1, \cdots, slice_{79}}$,
@@ -27,6 +27,8 @@ $$
     &= s_{16\times 79} \cdots s_{16\times 64} (\text{16 bit}) \parallel s_{16\times 63} \cdots s_{16\times 0} (\text{64 bit})
 \end{align*}
 $$
+
+![twinkle state](state-Page-2.drawio.pdf)
 
 Similarly, for the $i$-th lane with $0 \leq i \leq 15$, 
 
