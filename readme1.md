@@ -28,7 +28,9 @@ $$
 \end{align*}
 $$
 
-![twinkle state](state-Page-2.drawio.png)
+<div style="text-align: center;">
+    <img src="state-Page-2.drawio.png" alt="Alt text" width="500">
+</div>
 
 Similarly, for the $i$-th lane with $0 \leq i \leq 15$, 
 
