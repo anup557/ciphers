@@ -57,7 +57,7 @@ for (int i=0; i<16; i++){
 ## Slice wise to Lane wise
 Suppose $s_{1d}[80] = {slice_{79}, \cdots, slice_1, slice_0}$ stores one dimensional representation of
 the twinkle state in slice wise fashion. The function `void _1d_to_lane_wise(uint64_t *s, uint16_t *s_1d)` stores the
-state into the variable `s[32]` as the given figure in lane wise.
+state into the variable `s[32]` according to our implementation.
 
 - **Note:** The difference between slice representation of ours with authors is that, for our case,
   one has to keep $slice_{79}$ in the 0-th position of $s_{1d}[]$.
