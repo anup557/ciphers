@@ -103,6 +103,45 @@ The folder structure is as follows:
 │       ├── oracle.h
 │       └── README.md
 │
+├── Simon
+│   └── version-32-64
+│       ├── main.c
+│       ├── my_lib.h
+│       ├── oracle.h
+│       └── README.md
+│
+├── Speck
+│   └── version-32-64
+│       ├── main.c
+│       ├── my_lib.h
+│       ├── oracle.h
+│       └── README.md
+│
+├── Skinny
+│   ├── version-64-64
+│   │   ├── main.c
+│   │   ├── my_lib.h
+│   │   ├── oracle.h
+│   │   └── README.md
+│   │
+│   ├── version-64-128
+│   │   ├── main.c
+│   │   ├── my_lib.h
+│   │   ├── oracle.h
+│   │   └── README.md
+│   │
+│   └── version-64-192
+│       ├── main.c
+│       ├── oracle.h
+│       ├── my_lib.h
+│       └── README.md
+│
+├── Warp
+│   ├── main.c
+│   ├── my_lib.h
+│   ├── oracle.h
+│   └── README.md
+│
 └── README.md
 ````
 
