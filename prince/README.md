@@ -2,8 +2,8 @@ This folder contains implementations of Prince cipher in C language.
 
 ## Paper Details
 1. Julia Borghoff, Anne Canteaut, Tim Güneysu, Elif Bilge Kavun, Miroslav Knežević, Lars R. Knudsen, Gregor Leander,
-Ventzislav Nikov, Christof Paar, Christian Rechberger, Peter Rombouts, Søren S. Thomsen, Tolga Yalçın
-PRINCE – A Low-latency Block Cipher for Pervasive Computing Applications
+Ventzislav Nikov, Christof Paar, Christian Rechberger, Peter Rombouts, Søren S. Thomsen, Tolga Yalçın.
+PRINCE – A Low-latency Block Cipher for Pervasive Computing Applications.
 Advances in Cryptology - ASIACRYPT 2012. 
 
 ## Usage

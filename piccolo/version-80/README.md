@@ -1,8 +1,8 @@
 This folder contains implementations of Piccolo-80 cipher in C language.
 
 ## Paper Details
-1. Kyoji Shibutani, Takanori Isobe, Harunaga Hiwatari, Atsushi Mitsuda, Toru Akishita, Taizo Shirai
-Piccolo: An Ultra-Lightweight Blockcipher
+1. Kyoji Shibutani, Takanori Isobe, Harunaga Hiwatari, Atsushi Mitsuda, Toru Akishita, Taizo Shirai.
+Piccolo: An Ultra-Lightweight Blockcipher.
 Cryptographic Hardware and Embedded Systems - CHES 2011. 
 
 ## Usage

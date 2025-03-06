@@ -1,8 +1,8 @@
 This folder contains implementations of Print-48 cipher in C language.
 
 ## Paper Details
-1. Lars Knudsen, Gregor Leander, Axel Poschmann, Matthew J.B. Robshaw
-PRINTcipher: A Block Cipher for IC-Printing
+1. Lars Knudsen, Gregor Leander, Axel Poschmann, Matthew J.B. Robshaw.
+PRINTcipher: A Block Cipher for IC-Printing.
 Cryptographic Hardware and Embedded Systems, CHES 2010. 
 
 ## Usage

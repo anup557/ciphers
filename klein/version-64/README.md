@@ -1,8 +1,8 @@
 This folder contains implementations of KLEIN-64 cipher in rust language.
 
 ## Paper Details
-1. Zheng Gong, Svetla Nikova, Yee Wei Law
-KLEIN: A New Family of Lightweight Block Ciphers
+1. Zheng Gong, Svetla Nikova, Yee Wei Law.
+KLEIN: A New Family of Lightweight Block Ciphers.
 RFID. Security and Privacy - 7th International Workshop, 2011.
 
 ## Usage

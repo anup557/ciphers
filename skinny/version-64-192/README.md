@@ -1,8 +1,8 @@
 This folder contains implementations of Skinny-64-192 cipher in C language.
 
 ## Paper Details
-1. Christof Beierle, Jérémy Jean, Stefan Kölbl, Gregor Leander, Amir Moradi, Thomas Peyrin, Yu Sasaki, Pascal Sasdrich, Siang Meng Sim
-The SKINNY Family of Block Ciphers and its Low-Latency Variant MANTIS
+1. Christof Beierle, Jérémy Jean, Stefan Kölbl, Gregor Leander, Amir Moradi, Thomas Peyrin, Yu Sasaki, Pascal Sasdrich, Siang Meng Sim.
+The SKINNY Family of Block Ciphers and its Low-Latency Variant MANTIS.
 Advances in Cryptology - CRYPTO 2016.
 
 ## Usage

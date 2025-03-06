@@ -1,8 +1,8 @@
 This folder contains implementations of SIMON-32/64 cipher in C language.
 
 ## Paper Details
-1. Ray Beaulieu, Douglas Shors, Jason Smith, Stefan Treatman-Clark, Bryan Weeks, Louis Wingers
-The Simon and Speck families of Lightweight Block Ciphers
+1. Ray Beaulieu, Douglas Shors, Jason Smith, Stefan Treatman-Clark, Bryan Weeks, Louis Wingers.
+The Simon and Speck families of Lightweight Block Ciphers.
 Proceedings of the 52nd Annual Design Automation Conference 2015.
 
 ## Usage

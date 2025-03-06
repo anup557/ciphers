@@ -1,8 +1,8 @@
 This folder contains implementations of Future cipher in C language.
 
 ## Paper Details
-1. Kishan Chand Gupta, Sumit Kumar Pandey, Susanta Samanta
-FUTURE: A Lightweight Block Cipher Using An Optimal Diffusion Matrix
+1. Kishan Chand Gupta, Sumit Kumar Pandey, Susanta Samanta.
+FUTURE: A Lightweight Block Cipher Using An Optimal Diffusion Matrix.
 Progress in Cryptology - AFRICACRYPT 2022.
 
 ## Usage

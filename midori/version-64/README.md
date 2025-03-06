@@ -1,8 +1,8 @@
 This folder contains implementations of Midori-64 cipher in C language.
 
 ## Paper Details
-1. Subhadeep Banik, Andrey Bogdanov, Takanori Isobe, Kyoji Shibutani, Harunaga Hiwatari, Toru Akishita, Francesco Regazzoni
-Midori: A Block Cipher for Low Energy (Extended Version)
+1. Subhadeep Banik, Andrey Bogdanov, Takanori Isobe, Kyoji Shibutani, Harunaga Hiwatari, Toru Akishita, Francesco Regazzoni.
+Midori: A Block Cipher for Low Energy (Extended Version).
 Advances in Cryptology – ASIACRYPT 2015. 
 
 ## Usage

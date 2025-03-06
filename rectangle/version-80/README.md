@@ -1,8 +1,8 @@
 This folder contains implementations of Rectangle-80 cipher in C language.
 
 ## Paper Details
-1. Wentao Zhang, Zhenzhen Bao, Dongdai Lin, Vincent Rijmen, Bohan Yang, Ingrid Verbauwhede
-RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms
+1. Wentao Zhang, Zhenzhen Bao, Dongdai Lin, Vincent Rijmen, Bohan Yang, Ingrid Verbauwhede.
+RECTANGLE: A Bit-slice Lightweight Block Cipher Suitable for Multiple Platforms.
 Science China Information Sciences 2015. 
 
 ## Usage

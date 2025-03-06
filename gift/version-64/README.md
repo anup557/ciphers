@@ -1,8 +1,8 @@
 This folder contains implementations of Gift-64 cipher in C language.
 
 ## Paper Details
-1. Subhadeep Banik, Sumit Kumar Pandey, Thomas Peyrin, Yu Sasaki, Siang Meng Sim, and Yosuke Todo
-GIFT: A Small Present Towards Reaching the Limit of Lightweight Encryption (Full version)
+1. Subhadeep Banik, Sumit Kumar Pandey, Thomas Peyrin, Yu Sasaki, Siang Meng Sim, and Yosuke Todo.
+GIFT: A Small Present Towards Reaching the Limit of Lightweight Encryption (Full version).
 Cryptographic Hardware and Embedded Systems - CHES 2017.
 
 ## Usage

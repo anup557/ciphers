@@ -1,8 +1,8 @@
 This folder contains implementations of Present-80 cipher in C language.
 
 ## Paper Details
-1. A. Bogdanov, L.R. Knudsen, G. Leander, C. Paar, A. Poschmann, M.J.B. Robshaw, Y. Seurin, C. Vikkelsoe
-PRESENT: An Ultra-Lightweight Block Cipher
+1. A. Bogdanov, L.R. Knudsen, G. Leander, C. Paar, A. Poschmann, M.J.B. Robshaw, Y. Seurin, C. Vikkelsoe.
+PRESENT: An Ultra-Lightweight Block Cipher.
 Cryptographic Hardware and Embedded Systems - CHES 2007.
 
 ## Usage

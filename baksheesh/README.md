@@ -1,9 +1,9 @@
 This folder contains implementations of BAKSHEESH cipher in C language.
 
 ## Paper Details
-1. 	Anubhab Baksi, Jakub Breier, Anupam Chattopadhyay, Tomas Gerlich, Sylvain Guilley, Naina Gupta, Kai Hu, Takanori Isobe, Arpan Jati, Petr Jedlicka, Hyunjun Kim, Fukang Liu, Zdenek Martinasek, Kosei Sakamoto, Hwajeong Seo, Rentaro Shiba, Ritu Ranjan Shrivastwa:
+1. 	Anubhab Baksi, Jakub Breier, Anupam Chattopadhyay, Tomas Gerlich, Sylvain Guilley, Naina Gupta, Kai Hu, Takanori Isobe, Arpan Jati, Petr Jedlicka, Hyunjun Kim, Fukang Liu, Zdenek Martinasek, Kosei Sakamoto, Hwajeong Seo, Rentaro Shiba, Ritu Ranjan Shrivastwa.
 BAKSHEESH: Similar Yet Different From GIFT.
-IACR Cryptol. ePrint Arch. 2023: 750 (2023)
+IACR Cryptol. ePrint Arch. 2023: 750 (2023).
 
 ## Usage
 To run the oracle, simply run the following command in linux terminal or run the `main.c` file.

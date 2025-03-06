@@ -1,9 +1,9 @@
 This folder contains implementations of AES-128 cipher in C language.
 
 ## Paper Details
-1. Joan Daemen, Vincent Rijmen:
+1. Joan Daemen, Vincent Rijmen.
 The Design of Rijndael: AES - The Advanced Encryption Standard.
-Information Security and Cryptography, Springer 2002, ISBN 3-540-42580-2
+Information Security and Cryptography, Springer 2002, ISBN 3-540-42580-2.
 
 ## Usage
 To run the oracle, simply run the following command in linux terminal or run the `main.c` file.
