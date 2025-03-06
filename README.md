@@ -30,6 +30,19 @@ The folder structure is as follows:
 │   ├── oracle.h
 │   └── README.md
 │
+├── Gift
+│   ├── version-64
+│   │   ├── main.c
+│   │   ├── oracle.h
+│   │   ├── my_lib.h
+│   │   └── README.md
+│   │
+│   └── version-128
+│       ├── main.c
+│       ├── oracle.h
+│       ├── my_lib.h
+│       └── README.md
+│
 └── README.md
 ````
 
