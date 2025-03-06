@@ -30,6 +30,19 @@ The folder structure is as follows:
 │   ├── oracle.h
 │   └── README.md
 │
+├── DES
+│   ├── des.h
+│   ├── look_up_tables.h
+│   ├── main.c
+│   └── README.md
+│
+├── future
+│   ├── main.c
+│   ├── make_mult_table.c
+│   ├── my_lib.h
+│   ├── oracle.h
+│   └── README.md
+│
 ├── Gift
 │   ├── version-64
 │   │   ├── main.c
@@ -41,6 +54,53 @@ The folder structure is as follows:
 │       ├── main.c
 │       ├── oracle.h
 │       ├── my_lib.h
+│       └── README.md
+│
+├── Klein
+│   └── version-64
+│       ├── main.rs
+│       ├── oracle.rs
+│       └── README.md
+│
+├── Midori
+│   └── version-64
+│       ├── main.c
+│       ├── my_lib.h
+│       ├── oracle.h
+│       └── README.md
+│
+├── Piccolo
+│   └── version-80
+│       ├── main.c
+│       ├── my_lib.h
+│       ├── oracle.h
+│       └── README.md
+│
+├── Present
+│   └── version-80
+│       ├── main.c
+│       ├── my_lib.h
+│       ├── oracle.h
+│       └── README.md
+│
+├── Prince
+│   ├── main.c
+│   ├── my_lib.h
+│   ├── oracle.h
+│   └── README.md
+│
+├── Print
+│   └── version-48
+│       ├── main.c
+│       ├── my_lib.h
+│       ├── oracle.h
+│       └── README.md
+│
+├── Rectangle
+│   └── version-80
+│       ├── main.c
+│       ├── my_lib.h
+│       ├── oracle.h
 │       └── README.md
 │
 └── README.md
