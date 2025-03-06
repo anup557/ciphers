@@ -14,7 +14,8 @@ gcc main.c -o out
 
 ## Gift-64 Test Vector
 The test vectors are taken from "https://github.com/giftcipher/gift/tree/master/implementations/test%20vector".
-There is no test vectors given in the original paper.
+There is no test vectors given in the original paper though the github upload is by Thomas Peyrin,
+one of the author in the paper.
 
 1.  - **Message:** 0000000000000000
     - **Master Key:** 00000000000000000000000000000000
