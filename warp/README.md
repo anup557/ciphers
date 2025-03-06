@@ -1,8 +1,8 @@
 This folder contains implementations of Warp cipher in C language.
 
 ## Paper Details
-1. Subhadeep Banik, Zhenzhen Bao, Takanori Isobe, Hiroyasu Kubo, Fukang Liu, Kazuhiko Minematsu, Kosei Sakamoto, Nao Shibata, Maki Shigeri<br />
-WARP : Revisiting GFN for Lightweight 128-bit Block Cipher
+1. Subhadeep Banik, Zhenzhen Bao, Takanori Isobe, Hiroyasu Kubo, Fukang Liu, Kazuhiko Minematsu, Kosei Sakamoto, Nao Shibata, Maki Shigeri.
+WARP : Revisiting GFN for Lightweight 128-bit Block Cipher.
 Selected Areas in Cryptography 2021.
 
 ## Usage
