@@ -21,7 +21,7 @@ This repository provides supplementary material for our work on the fault analys
 
 ## Dependencies
 
-The following tools should be installed to perform the experiments:
+The following tools need to be installed to perform the experiments:
 
 1. **C/C++ Compilers and Interpreters**
    Standard C/C++ compilers and interpreters are sufficient for the simulation part. This is used in [Software Simulation of The Attacks](#software-simulation-of-the-attacks)
