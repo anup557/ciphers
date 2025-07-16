@@ -69,8 +69,6 @@ The script used to induce the fault is `TOFA_FA.ipynb`. This Jupyter Notebook ru
 The Jupyter Notebook- `TOFA_FA.ipynb` is called via Python script- attack.py. This Python file collects the faulty and correct ciphertexts and returns the number of keys recovered. In the parameters set, a unique key is obtained. The parameters within this file responsible for the number of faults `num\_faults` can be modified to see how the key recovery works for fewer faults.
 
 ### Attack Implementation Results
-
-### Table: Attack Implementation Results
 The practical time requirements for various instances of the attack, under different number of faults, are provided in the following.
 The reported times represent the average execution time over 50 experiments, each with random master key and plaintexts.
 
