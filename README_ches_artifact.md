@@ -19,8 +19,19 @@ This repository provides supplementary material for our work on the fault analys
 1. [Attack Realization Using ChipWhisperer Lite](#fault)
 &nbsp;
 
+## Dependencies
+
+To replicate the experiments in this work, ensure the following tools are available:
+
+1. **ChipWhisperer Toolchain**
+   We use the [ChipWhisperer open-source toolchain](https://github.com/newaetech/chipwhisperer).
+   It must be installed to replicate the attacks on the actual hardware used in this work.
+
+2. **C/C++ Compilers and Interpreters**
+   For the simulated key recovery experiments, standard C/C++ compilers and interpreters are sufficient.
+
 ## Software Simulation of The Attacks
-The simulation code is given in Gift128/64 and BAKSHEESH are given in respective directories.
+The simulation code is given in gift128/64 and baksheesh are given in respective directories.
 To run the simulation, do the following:
 ```bash
 cd cipher_name
@@ -34,15 +45,6 @@ To change number of Faults, set #define EXP (e.g., for 16 faults #define EXP 16)
 We use the ChipWhisperer-Lite  CW1173  evaluation board, as shown below. It has XMEGA and ARM targets as shown in `./setup.jpeg`.
 
  <!-- <div  align="center"><img  src="./setup.jpeg"  width="400"  height="200"></div> -->
-
-
-## Dependencies
-
-We use the ChipWhisperer open-source toolchain (https://github.com/newaetech/chipwhisperer). Hence, this toolchain must be installed to replicate the attacks on the hardware utilized in this work.
-
-For the simulated key recoveries, C/C++ compilers and interpreters are sufficient.
-
-
 
 # HOW TO INDUCE THE FAULTS AND PERFORM KEY RECOVERY?
 The following two commands are sufficient to build the necessary dependencies, induce faults, and perform final key recovery in the `Tofa/gift<128/64>` folder.
