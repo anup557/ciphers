@@ -68,11 +68,7 @@ The script used to induce the fault is `TOFA_FA.ipynb`. This Jupyter Notebook ru
 ### Key-Recovery 
 The Jupyter Notebook- `TOFA_FA.ipynb` is called via Python script- attack.py. This Python file collects the faulty and correct ciphertexts and returns the number of keys recovered. In the parameters set, a unique key is obtained. The parameters within this file responsible for the number of faults `num\_faults` can be modified to see how the key recovery works for fewer faults.
 
-# COUNTERMEASURE
-
-We provide a duplication-based countermeasure implementation of GIFT128 for the last five rounds required to mitigate TOFA. It is present in the folder- `Tofa/gift128/Countermeasure_TOFA/`. A test of this countermeasure is shown in the Jupyter Notebook file- `TOFA_FA_Countermeasure.ipynb`. Any fault induced here results in all 0 ciphertext results. It prevents the attacker from exploiting faults on GIFT128.
-
-### Table: Attack Implementation Results
+### Attack Implementation Results
 
 | Primitive   | # Faults | Avg. Attack Time  | Reduced Key-space |
 |------------|----------|-------------------|-------------------|
@@ -89,6 +85,9 @@ We provide a duplication-based countermeasure implementation of GIFT128 for the 
 |            | 16       | 63 milliseconds   | 256               |
 |            | 15       | 75 milliseconds   | 512               |
 
+# COUNTERMEASURE
+
+We provide a duplication-based countermeasure implementation of GIFT128 for the last five rounds required to mitigate TOFA. It is present in the folder- `Tofa/gift128/Countermeasure_TOFA/`. A test of this countermeasure is shown in the Jupyter Notebook file- `TOFA_FA_Countermeasure.ipynb`. Any fault induced here results in all 0 ciphertext results. It prevents the attacker from exploiting faults on GIFT128.
 
 ## License
 
