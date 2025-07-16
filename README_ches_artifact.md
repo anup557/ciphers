@@ -31,21 +31,30 @@ The following tools need to be installed to perform the experiments:
    We use the [ChipWhisperer open-source toolchain](https://github.com/newaetech/chipwhisperer).
    It must be installed for [Attack Realization Using ChipWhisperer Lite](#attack-realization-using-chipwhisperer-lite) used in this work.
 
+## Folder Structure
+A high-level summary of the folder structure containing necessary files is given in the following.
 ```
-project-root/
-├── README.md                  # Project documentation
-├── requirements.txt           # Python dependencies
-├── setup.py                   # Installation script
-├── src/                       # Source code
-│   ├── main.py                # Entry point for the program
-│   └── utils.py               # Utility functions
-├── data/                      # Input and output data
-│   ├── input.csv              # Sample input file
-│   └── output.csv             # Output after processing
-├── notebooks/                 # Jupyter notebooks for experiments
-│   └── analysis.ipynb         # Data analysis notebook
-└── tests/                     # Test cases
-    └── test_main.py           # Unit tests for main module
+tofa/
+├── README.md                       # Project documentation
+├── baksheesh                       # 
+├── gift128                         # 
+│   ├── Setup_Scripts               # 
+│   ├── TOFA                        # 
+│   │   ├── main.c                  #   
+│   │   ├── main-CWLITEXMEGA.hex    #
+│   │   └── makefile                #
+│   │   
+│   ├── Makefile                    # 
+│   ├── attack.cpp                  # 
+│   ├── attack.py                   # 
+│   ├── byte_fault_model.cpp        # 
+│   ├── gift128.h                   # 
+│   ├── utility.h                   # 
+│   └── setup.py                    # 
+│
+├── gift64                          # 
+├── gift64_lib_uint8                # 
+└── oracles                         # 
 ```
 
 ## Software Simulation of The Attacks
