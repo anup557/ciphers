@@ -28,7 +28,7 @@ The following tools should be installed to perform the experiments:
 
 2. **ChipWhisperer Toolchain**
    We use the [ChipWhisperer open-source toolchain](https://github.com/newaetech/chipwhisperer).
-   It must be installed for [Attack Realization Using ChipWhisperer Lite](##Attack Realization Using ChipWhisperer Lite) used in this work
+   It must be installed for [see Attack Realization Using ChipWhisperer Lite](#attack-realization-using-chipwhisperer-lite) used in this work
 
 ## Software Simulation of The Attacks
 The simulation code is given in gift128/64 and baksheesh are given in respective directories.
