@@ -71,6 +71,8 @@ The Jupyter Notebook- `TOFA_FA.ipynb` is called via Python script- attack.py. Th
 ### Attack Implementation Results
 
 ### Table: Attack Implementation Results
+The practical time requirements for various instances of the attack, under different number of faults, are provided in the following.
+The reported times represent the average execution time over 50 experiments, each with random master key and plaintexts.
 
 | Primitive   | # Faults | Avg. Attack Time  | Reduced Key-space |
 |:-----------:|:--------:|:-----------------:|:-----------------:|
