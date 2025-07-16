@@ -21,7 +21,7 @@ This repository provides supplementary material for our work on the fault analys
 
 ## Dependencies
 
-To replicate the experiments in this work, ensure the following tools are available:
+The following tools should be installed to perform the experiments:
 
 1. **ChipWhisperer Toolchain**
    We use the [ChipWhisperer open-source toolchain](https://github.com/newaetech/chipwhisperer).
