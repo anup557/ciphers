@@ -23,12 +23,12 @@ This repository provides supplementary material for our work on the fault analys
 
 The following tools should be installed to perform the experiments:
 
-1. **ChipWhisperer Toolchain**
-   We use the [ChipWhisperer open-source toolchain](https://github.com/newaetech/chipwhisperer).
-   It must be installed to replicate the attacks on the actual hardware used in this work.
-
-2. **C/C++ Compilers and Interpreters**
+1. **C/C++ Compilers and Interpreters**
    For the simulated key recovery experiments, standard C/C++ compilers and interpreters are sufficient.
+
+2. **ChipWhisperer Toolchain**
+   We use the [ChipWhisperer open-source toolchain](https://github.com/newaetech/chipwhisperer).
+   It must be installed for [Attack Realization Using ChipWhisperer Lite](##Attack Realization Using ChipWhisperer Lite) used in this work
 
 ## Software Simulation of The Attacks
 The simulation code is given in gift128/64 and baksheesh are given in respective directories.
