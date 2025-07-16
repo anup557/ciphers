@@ -74,15 +74,15 @@ The reported times represent the average execution time over 50 experiments, eac
 
 | Primitive   | # Faults | Avg. Attack Time  | Reduced Key-space |
 |:-----------:|:--------:|:-----------------:|:-----------------:|
-| **GIFT-128** |    8     |    2 seconds      |         1         |
+| **gift128** |    8     |    2 seconds      |         1         |
 |             |    4     |   15 seconds      |         1         |
 |             |    3     |   58 seconds      |         1         |
 |             |    2     |  29.5 minutes     |         4         |
-| **BAKSHEESH**|    8     |   3.5 minutes     |         1         |
+| **baksheesh**|    8     |   3.5 minutes     |         1         |
 |             |    6     |   3.7 minutes     |         1         |
 |             |    5     |   7.5 minutes     |         1         |
 |             |    4     |   40 minutes      |         1         |
-| **GIFT-64** |   22     |  43 milliseconds  |         1         |
+| **gift64** |   22     |  43 milliseconds  |         1         |
 |             |   20     |  60 milliseconds  |        16         |
 |             |   16     |  63 milliseconds  |       256         |
 |             |   15     |  75 milliseconds  |       512         |
