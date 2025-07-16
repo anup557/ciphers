@@ -24,7 +24,7 @@ This repository provides supplementary material for our work on the fault analys
 The following tools should be installed to perform the experiments:
 
 1. **C/C++ Compilers and Interpreters**
-   For the simulation part standard C/C++ compilers and interpreters are sufficient. This is used in [Software Simulation of The Attacks](#software-simulation-of-the-attacks)
+   Standard C/C++ compilers and interpreters are sufficient for the simulation part. This is used in [Software Simulation of The Attacks](#software-simulation-of-the-attacks)
 
 2. **ChipWhisperer Toolchain**
    We use the [ChipWhisperer open-source toolchain](https://github.com/newaetech/chipwhisperer).
