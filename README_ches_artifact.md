@@ -31,6 +31,23 @@ The following tools need to be installed to perform the experiments:
    We use the [ChipWhisperer open-source toolchain](https://github.com/newaetech/chipwhisperer).
    It must be installed for [Attack Realization Using ChipWhisperer Lite](#attack-realization-using-chipwhisperer-lite) used in this work.
 
+```
+project-root/
+├── README.md                  # Project documentation
+├── requirements.txt           # Python dependencies
+├── setup.py                   # Installation script
+├── src/                       # Source code
+│   ├── main.py                # Entry point for the program
+│   └── utils.py               # Utility functions
+├── data/                      # Input and output data
+│   ├── input.csv              # Sample input file
+│   └── output.csv             # Output after processing
+├── notebooks/                 # Jupyter notebooks for experiments
+│   └── analysis.ipynb         # Data analysis notebook
+└── tests/                     # Test cases
+    └── test_main.py           # Unit tests for main module
+```
+
 ## Software Simulation of The Attacks
 The simulation code is given in gift128/64 and baksheesh are given in respective directories.
 To run the simulation, do the following:
