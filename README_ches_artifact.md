@@ -34,7 +34,7 @@ The following tools need to be installed to perform the experiments:
 ## Folder Structure
 A high-level summary of the folder structure containing necessary files is given in the following.
 ```
-tofa/
+Tofa/
 ├── README.md                       # Project documentation
 ├── baksheesh                       # 
 ├── gift128                         # 
