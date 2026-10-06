@@ -1,150 +1,58 @@
-This repository contains implementations of various cryptographic ciphers mostly in C language. Each folder corresponds to a different cipher. This collection is intended for educational purposes.
+<!-- gist: basics for markdown language -->
+<!-- ------------------------------------------------------------------------------------------ -->
 
-# Folder Structure
-The folder structure is as follows:
+<!-- 1. Headings -->
+<!-- Use # symbols for headings. More # means a smaller heading. -->
+# Heading 1
+## Heading 2
+### Heading 3
 
-<!-- ├, │, ─, └ to create tree in md language. Use that in code format (within {````, ````} so that it displays as it is) -->
-````
-.
-├── aes
-│   └── version-128
-│       ├── main.c
-│       ├── oracle.h
-│       ├── my_lib.h
-│       └── README.md
-│
-├── aradi
-│   ├── main.c
-│   ├── oracle.h
-│   ├── my_lib.h
-│   └── README.md
-│
-├── baksheesh
-│   ├── main.c
-│   ├── oracle.h
-│   ├── my_lib.h
-│   └── README.md
-│
-├── craft
-│   ├── main.c
-│   ├── oracle.h
-│   └── README.md
-│
-├── DES
-│   ├── des.h
-│   ├── look_up_tables.h
-│   ├── main.c
-│   └── README.md
-│
-├── future
-│   ├── main.c
-│   ├── make_mult_table.c
-│   ├── my_lib.h
-│   ├── oracle.h
-│   └── README.md
-│
-├── Gift
-│   ├── version-64
-│   │   ├── main.c
-│   │   ├── oracle.h
-│   │   ├── my_lib.h
-│   │   └── README.md
-│   │
-│   └── version-128
-│       ├── main.c
-│       ├── oracle.h
-│       ├── my_lib.h
-│       └── README.md
-│
-├── Klein
-│   └── version-64
-│       ├── main.rs
-│       ├── oracle.rs
-│       └── README.md
-│
-├── Midori
-│   └── version-64
-│       ├── main.c
-│       ├── my_lib.h
-│       ├── oracle.h
-│       └── README.md
-│
-├── Piccolo
-│   └── version-80
-│       ├── main.c
-│       ├── my_lib.h
-│       ├── oracle.h
-│       └── README.md
-│
-├── Present
-│   └── version-80
-│       ├── main.c
-│       ├── my_lib.h
-│       ├── oracle.h
-│       └── README.md
-│
-├── Prince
-│   ├── main.c
-│   ├── my_lib.h
-│   ├── oracle.h
-│   └── README.md
-│
-├── Print
-│   └── version-48
-│       ├── main.c
-│       ├── my_lib.h
-│       ├── oracle.h
-│       └── README.md
-│
-├── Rectangle
-│   └── version-80
-│       ├── main.c
-│       ├── my_lib.h
-│       ├── oracle.h
-│       └── README.md
-│
-├── Simon
-│   └── version-32-64
-│       ├── main.c
-│       ├── my_lib.h
-│       ├── oracle.h
-│       └── README.md
-│
-├── Speck
-│   └── version-32-64
-│       ├── main.c
-│       ├── my_lib.h
-│       ├── oracle.h
-│       └── README.md
-│
-├── Skinny
-│   ├── version-64-64
-│   │   ├── main.c
-│   │   ├── my_lib.h
-│   │   ├── oracle.h
-│   │   └── README.md
-│   │
-│   ├── version-64-128
-│   │   ├── main.c
-│   │   ├── my_lib.h
-│   │   ├── oracle.h
-│   │   └── README.md
-│   │
-│   └── version-64-192
-│       ├── main.c
-│       ├── oracle.h
-│       ├── my_lib.h
-│       └── README.md
-│
-├── Warp
-│   ├── main.c
-│   ├── my_lib.h
-│   ├── oracle.h
-│   └── README.md
-│
-└── README.md
-````
+<!-- 2. Bold and Italics -->
+**Bold text**
+*Italic text*
+***Bold and italic text***
 
-Each cipher folder contains:
-- The main code file(s) for that cipher.
-- A README.md containing the original paper details, the test vectors of the corresponding cipher and usage details of the given code.
+<!-- 3. Lists -->
+<!-- Unordered List: Use -, +, or * -->
+- Item 1
+- Item 2
+
+<!-- Ordered List: Use numbers followed by a period -->
+1. First item
+2. Second item
+
+<!-- 4. Links -->
+<!-- Create links by using [text](URL) syntax. -->
+[OpenAI](https://www.openai.com)
+
+<!-- 5. Images -->
+<!-- Insert images using ![alt text](URL) -->
+![OpenAI Logo](https://example.com/logo.png)
+
+<!-- 6. Blockquotes -->
+<!-- Use > to create a blockquote. -->
+> This is a quote.
+
+<!-- 7. Code -->
+<!-- Inline Code: Use backticks `code` -->
+<!-- Code Blocks: Use triple backticks or indent code by 4 spaces -->
+
+
+<!-- 8. Horizontal Line -->
+<!-- Use three or more dashes --- or underscores ___. -->
+---
+
+<!-- 9. Tables -->
+<!-- Use pipes | and hyphens - to create tables. -->
+
+<!-- markdown -->
+<!-- Copy code -->
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1    | Row 1    |
+| Row 2    | Row 2    |
+
+<!-- 10. Task Lists -->
+<!-- Use - [ ] for an unchecked box and - [x] for a checked box. -->
+- [ ] Task 1
+- [x] Task 2
