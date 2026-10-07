@@ -1,0 +1,16 @@
+Test vectors for aes cipher. The test vectors are taken from "https://github.com/ircmaxell/quality-checker/blob/master/tmp/gh_18/PHP-PasswordLib-master/test/Data/Vectors/aes-ecb.test-vectors". The LSB of the lower state values are in the right side.
+
+Key:        5468617473206D79204B756E67204675
+Plaintext:  54776F204F6E65204E696E652054776F
+Ciphertext: 29c3505f571420f6402299b31a02d73a
+------------------------------------------------------------------------------------------------------------
+
+Key:        2b7e151628aed2a6abf7158809cf4f3c
+Plaintext:  6bc1bee22e409f96e93d7e117393172a
+Ciphertext: 3ad77bb40d7a3660a89ecaf32466ef97
+------------------------------------------------------------------------------------------------------------
+
+Key:        2b7e151628aed2a6abf7158809cf4f3c
+Plaintext:  ae2d8a571e03ac9c9eb76fac45af8e51
+Ciphertext: f5d3d58503b9699de785895a96fdbaaf
+------------------------------------------------------------------------------------------------------------
