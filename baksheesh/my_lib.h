@@ -1,6 +1,21 @@
 /* gist: This is my library functions for c programming. The functions works on the chunks of 64-bit */ 
 /* memory. */
 /* ----------------------------------------------------------------------------------------- */
+
+/* functions: */
+/*     (i)     uint64_t* mem_alloc(uint32_t size) */
+/*     (ii)    void rand_alloc(uint64_t *msg, uint32_t size) */
+/*     (iii)   void copy(uint64_t *x, uint64_t *y, uint32_t size) */    
+/*     (iv)    void print(uint64_t *state, uint32_t size) */
+/*     (v)     void circ_shift(uint64_t *msg, uint8_t pos, uint32_t size, char* str) */
+/*     (vi)    void shift(uint64_t *msg, uint8_t pos, uint32_t size, char* str) */
+/*     (vii)   void xr(uint64_t *a, uint64_t *b, uint32_t size) */
+/*     (viii)  void insert(uint64_t *x, uint64_t msb, uint64_t lsb) */    
+/*     (ix)    uint8_t check_eq(uint64_t *msg1, uint64_t *msg2, uint32_t size) */
+
+/* ----------------------------------------------------------------------------------------- */
+
+
 /* allocate the memory of 64-bit chunks */
 uint64_t* mem_alloc(uint32_t size){
     uint64_t *msg = (uint64_t*)calloc((size/64), sizeof(uint64_t));
@@ -220,3 +235,6 @@ uint8_t check_eq(uint64_t *msg1, uint64_t *msg2, uint32_t size){
 
     return 1;
     }   
+
+
+
