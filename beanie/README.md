@@ -36,7 +36,6 @@ beanie/
 ├── main.cpp       # Main test application executing test vectors
 ├── oracle.h       # BEANIE encryption oracle and data path
 ├── tks.h          # SIMD-accelerated Tweak-Key Schedule (TKS) functions
-├── key_schedule1.cpp # Standalone SIMD key schedule program
 └── README.md      # Documentation, instructions, and test vectors
 ```
 
