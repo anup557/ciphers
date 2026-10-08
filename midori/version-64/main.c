@@ -1,4 +1,5 @@
-/* gist: code for midori-64 cipher in C. */
+/* gist: code for midori-64 cipher in C. The oracle has passed test vectors given in */ 
+/* "https://eprint.iacr.org/2015/1142.pdf" (page 29) */
 /* ------------------------------------------------------------------------------------------ */
 
 #include <stdio.h>
@@ -19,6 +20,9 @@ int main(){
 
     msg[0] = 0x42c20fd3b586879e;
     insert(key, 0x687ded3b3c85b3f3, 0x5b1009863e2a8cbf);
+    
+    /* msg[0] = 0x0; */
+    /* insert(key, 0x0, 0x0); */
     
     oracle(msg, key);
 

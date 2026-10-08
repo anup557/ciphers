@@ -1,5 +1,7 @@
-// gist: code for klein-64 cipher in rust.
-//  ------------------------------------------------------------------------------------------
+// /* gist: code for klein-64 cipher in rust. The cipher is given in "https://www.researchgate.net/-
+// -publication/221622631_KLEIN_A_new_family_of_lightweight_block_ciphers". The oracle has passed */
+// /* test vectors given in the paper. */
+// /* ------------------------------------------------------------------------------------------ */
 
 mod oracle;
 

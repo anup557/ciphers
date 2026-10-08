@@ -1,4 +1,5 @@
-/* gist: code for piccolo-80 cipher in C. */
+/* gist: code for piccolo-80 cipher in C. The oracle has passed test vectors given in */ 
+/* "https://www.iacr.org/archive/ches2011/69170343/69170343.pdf" (page: 16). */
 /* ------------------------------------------------------------------------------------------------------------ */
 
 #include <stdio.h>
